@@ -1,16 +1,34 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVYBLUE: #2e2f42;
+  --OCEAN: #404bbf;
+  --SLATE: #434455;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
+.logo {
+  text-decoration: none;
+  color: var(--NAVYBLUE);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+}
+.logo span {
+  color: var(--IRIS);
+}
+
 .main-navigation {
-  color: #2e2f42;
+  color: var(--NAVYBLUE);
   font-size: 16px;
   font-family: Roboto;
   font-weight: 500;
 }
 
 .main-navigation:active {
-  color: #404bbf;
+  color: var(--OCEAN);
 }
 
 ul {
@@ -22,21 +40,13 @@ a {
   text-decoration: none;
 }
 
-.logo {
-  text-decoration: none;
-  color: #2e2f42;
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-}
-.logo span {
-  color: #4d5ae5;
+.main-contacts {
+  color: var(--SLATE);
 }
 
-ul .main-contacts {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
+.title {
+  background-color: var(--NAVYBLUE);
+  text-align: center;
 }
 
 footer {
