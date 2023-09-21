@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -15,12 +15,24 @@ body {
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
+  margin-bottom: 0px;
 }
 .logo span {
   color: var(--IRIS);
 }
 
 .main-navigation {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-navigation > li > a {
+  color: var(--NAVYBLUE);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+ {
   color: var(--NAVYBLUE);
   font-size: 16px;
   font-family: Roboto;
@@ -41,20 +53,65 @@ a {
 }
 
 .main-contacts {
+  margin-top: 0;
+}
+
+.main-contacts > li > a {
   color: var(--SLATE);
 }
 
 .title {
   background-color: var(--NAVYBLUE);
-  text-align: center;
 }
 
 .title-text {
+  color: white;
+  text-align: center;
 }
 
 .title button {
-  text-align: left;
+  color: white;
+  background-color: var(--IRIS);
+  font-family: inherit;
+  font-weight: 500;
+  border-width: 0;
 }
 
-footer {
+.solutions h3 {
+  color: var(--NAVYBLUE);
+}
+.solutions p {
+  color: var(--SLATE);
+}
+
+.services h2,
+.team h2 {
+  text-align: center;
+  color: var(--NAVYBLUE);
+  font-weight: 700;
+}
+
+.team h3 {
+  color: var(--NAVYBLUE);
+  font-weight: 500;
+}
+
+.team p {
+  color: var(--SLATE);
+}
+
+footer,
+footer a {
+  background-color: var(--NAVYBLUE);
+  color: white;
+}
+
+footer span {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-weight: 800;
+}
+
+footer a {
+  font-weight: 800;
 }
